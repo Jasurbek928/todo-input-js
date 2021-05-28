@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>TodoList</title>
+</head>
+<body>
+    <div class="card todo-card">
+        <div class="card-header">
+          <b>Qaydlar</b>
+         <h4><i>Qaydlar soni:</i><span id="todo-count"><i> 0</i></span></h4>
+        </div>
+        <div class="card-body ">
+            <form class="todo-form d-flex" id="todo-form">
+                <input type="text" id="todo-input" class="form-control mr-3" required>
+                <button type="submit" class="btn btn-primary">Qo'shish</button>
+            </form>
+        </div>
+          <ul class="list-group list-group-flush" id="todo-list-group">
+              <!-- <li class="list-group-item d-flex align-items-center justify-content-between">
+                <span>Cras justo odio</span>
+                <button class=" btn btn-outline-danger">O'chirish</button>
+              </li> -->
+          </ul>
+        <div class="card-footer">
+            <a href="#" class="btn btn-primary">Saqlash</a> 
+        </div>
+      </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
